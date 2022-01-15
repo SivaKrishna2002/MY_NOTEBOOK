@@ -1,0 +1,2131 @@
+<!DOCTYPE html>
+<html>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link href="ghm.css" rel="stylesheet">
+
+
+
+<body>
+
+
+<container class="top">
+    <div class="div1">
+        <nav class="navigator">
+            <div class="logo"><span class=logo1>My</span>NoteBook</div>
+            
+            <div class="asset"><a href="header.html">Home</a></div>
+            <div class="asset"><a href="#">My Notes</a></div>
+            <div class="asset"><a href="header.html">About us</a></div>
+            <div class="asset"><a href="header.html">Contacts</a></div>
+        </nav>
+    </div>
+    <div class="div2">
+        <div class="imgbox">
+        <img src="images/book-38.gif" alt="Italian Trulli" width=100% height=100% >
+    </div>
+    
+    <div class="imgbox2">
+        <!-- <img src="university.jpg"alt="Italian Trulli" width=100% height=100%> -->
+    </div>
+
+
+        <h2 class='src-br' style="font-size: 20px">Course Catalog :</h2>
+        <form action="" >
+            <input type="search" id='myipt' onkeyup="val(this.id)">
+            <!-- onclick="val('myipt')" -->
+            <i class="fa fa-search" ></i> 
+          </form>
+          
+    </div>
+    <div class="div3">
+        <h2 class='filer' style="font-size: 20px">FILTER</h2>
+       
+          <div class="input-data">
+            
+            <select name="Course" id="newck" style="font-size: 15px" onchange="val(this.id),chk()">
+                <option value="all">All</option>
+                <option value="BTech">BTech</option>
+              <option value="MTech">MTech</option>
+              <option value="other">Other</option>
+            </select>
+            <div class="underline">
+        </div>
+        <label for="">Course</label>
+          </div>
+          <div class="input-data" >
+            <select name="Branch" id='branc-dt' style="font-size: 15px" onchange="val(this.id)">
+                <option value="all">All</option>
+              <option value="ECE">ECE</option>
+              <option value="CSE">CSE</option>
+              <option value="EEE">EEE</option>
+              <option value="Mechanical">Mechanical</option>
+            </select>
+            <div class="underline">
+        </div>
+        <label for="">Branch</label>
+          </div>
+          <div class="input-data" >
+            <select name="Year" id='yar-dt'  style="font-size: 15px" onchange="val(this.id), populate(this.id,'sub-ab')">
+                <option value="all">All</option>
+              <option value="1styear">1st year</option>
+              <option value='2ndyear'>2nd year</option>
+              <option value="3rdyear">3rd year</option>
+              <option value="4thyear">4th year</option>
+            </select>
+            <div class="underline">
+        </div>
+        <label for="">Year</label>
+          </div>
+    
+    <div class="input-data">
+        <select name="Subject" id='sub-ab' style="font-size: 15px" onchange="val(this.id)">
+           
+        </select>
+        <div class="underline">
+    </div>
+    <label for="">Subject</label>
+      </div>
+</div>
+
+
+<div class="container" id="containers">
+
+    <div class="filterDiv BTech ECE 2ndyear emwtl">
+        <div class=img1>
+            <img src="images/emwtl.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Electomagnetic & Transmission lines </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <!-- <h5 >Hand written</h5>  -->
+            <!-- <i class="far fa-edit"></i> -->
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear rvsp">
+        <div class=img1>
+            <img src="images/rvsp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Random variables and surcastic process </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 3rdyear vlsi" >
+        <div class=img1>
+            <img src="images/VLSI.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Very large-scale integration</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear ac">
+        <div class=img1>
+            <img src="images/ac.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Analog Communication </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 3rdyear dc">
+        <div class=img1>
+            <img src="images/dc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Digital communication</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear ss">
+        <div class=img1>
+            <img src="images/ss.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>signals and systems</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear sdc">
+        <div class=img1>
+            <img src="images/dc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Semi conductor devices and circuits </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear nt">
+        <div class=img1>
+            <img src="images/nt.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Network Theory</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear stld">
+        <div class=img1>
+            <img src="images/stld.PNG" class="img1" width=100% height=50%>
+        </div>
+        <div class=text1>
+            <h4>Switching theory and logical designing</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear clang">
+        <div class=img1>
+            <img src="images/c lang.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>C Programming language</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear python">
+        <div class=img1>
+            <img src="images/python.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Python Programming Language</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear ds">
+        <div class=img1>
+            <img src="images/ds.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Data Structures</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear pdc">
+        <div class=img1>
+            <img src="images/pdc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Pulse Digital Circuits</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear eca">
+        <div class=img1>
+            <img src="images/eca.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Electronic Circuit Analysis</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div> 
+    <div class="filterDiv BTech ECE 1styear m1">
+        <div class=img1>
+            <img src="images/m1.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-1</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear cs">
+        <div class=img1>
+            <img src="images/cs.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Control Systems</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear dsp">
+        <div class=img1>
+            <img src="images/dsp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Digitl Signal Processing</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear mwe"> 
+        <div class=img1>
+            <img src="images/mwe.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>MicroWave Engineering</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear mpmc">
+        <div class=img1>
+            <img src="images/mpmc.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Micro Processor and Micro Controller</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear m2">
+        <div class=>
+            <img src="images/m2.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-2</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear dbms">
+        <div class=img1>
+            <img src="images/dbms.jpeg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Data base Management System</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear oops">
+        <div class=img1>
+            <img src="images/oops.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>OOPs through JAVA</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear m3">
+        <div class=img1>
+            <img src="images/m3.jpeg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-3</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear ldica">
+        <div class=img1>
+            <img src="images/ldica.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Linear & Digital Integrated Circuits</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear beee">
+        <div class=img1>
+            <img src="images/beee.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Basics of Electronics Engineering</h4>
+            <h4>1st year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear awp">
+        <div class=img1>
+            <img src="images/awp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Antenna Wave Propogation</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-pin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+
+    
+    <div class="filterDiv BTech ECE 2ndyear emwtl">
+        <div class=img1>
+            <img src="images/emwtl.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Electomagnetic & Transmission lines </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <!-- <h5 >Hand written</h5>  -->
+            <!-- <i class="far fa-edit"></i> -->
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear rvsp">
+        <div class=img1>
+            <img src="images/rvsp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Random variables and surcastic process </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 3rdyear vlsi" >
+        <div class=img1>
+            <img src="images/VLSI.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Very large-scale integration</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear ac">
+        <div class=img1>
+            <img src="images/ac.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Analog Communication </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 3rdyear dc">
+        <div class=img1>
+            <img src="images/dc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Digital communication</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear ss">
+        <div class=img1>
+            <img src="images/ss.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>signals and systems</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear sdc">
+        <div class=img1>
+            <img src="images/dc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Semi conductor devices and circuits </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear nt">
+        <div class=img1>
+            <img src="images/nt.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Network Theory</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear stld">
+        <div class=img1>
+            <img src="images/stld.PNG" class="img1" width=100% height=50%>
+        </div>
+        <div class=text1>
+            <h4>Switching theory and logical designing</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear clang">
+        <div class=img1>
+            <img src="images/c lang.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>C Programming language</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear python">
+        <div class=img1>
+            <img src="images/python.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Python Programming Language</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear ds">
+        <div class=img1>
+            <img src="images/ds.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Data Structures</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear pdc">
+        <div class=img1>
+            <img src="images/pdc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Pulse Digital Circuits</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear eca">
+        <div class=img1>
+            <img src="images/eca.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Electronic Circuit Analysis</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div> 
+    <div class="filterDiv BTech ECE 1styear m1">
+        <div class=img1>
+            <img src="images/m1.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-1</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear cs">
+        <div class=img1>
+            <img src="images/cs.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Control Systems</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear dsp">
+        <div class=img1>
+            <img src="images/dsp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Digitl Signal Processing</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear mwe"> 
+        <div class=img1>
+            <img src="images/mwe.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>MicroWave Engineering</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear mpmc">
+        <div class=img1>
+            <img src="images/mpmc.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Micro Processor and Micro Controller</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear m2">
+        <div class=>
+            <img src="images/m2.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-2</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear dbms">
+        <div class=img1>
+            <img src="images/dbms.jpeg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Data base Management System</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear oops">
+        <div class=img1>
+            <img src="images/oops.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>OOPs through JAVA</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear m3">
+        <div class=img1>
+            <img src="images/m3.jpeg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-3</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear ldica">
+        <div class=img1>
+            <img src="images/ldica.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Linear & Digital Integrated Circuits</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear beee">
+        <div class=img1>
+            <img src="images/beee.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Basics of Electronics Engineering</h4>
+            <h4>1st year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear awp">
+        <div class=img1>
+            <img src="images/awp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Antenna Wave Propogation</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-pin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="filterDiv BTech ECE 2ndyear emwtl">
+        <div class=img1>
+            <img src="images/emwtl.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Electomagnetic & Transmission lines </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <!-- <h5 >Hand written</h5>  -->
+            <!-- <i class="far fa-edit"></i> -->
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear rvsp">
+        <div class=img1>
+            <img src="images/rvsp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Random variables and surcastic process </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 3rdyear vlsi" >
+        <div class=img1>
+            <img src="images/VLSI.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Very large-scale integration</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear ac">
+        <div class=img1>
+            <img src="images/ac.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Analog Communication </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 3rdyear dc">
+        <div class=img1>
+            <img src="images/dc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Digital communication</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear ss">
+        <div class=img1>
+            <img src="images/ss.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>signals and systems</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear sdc">
+        <div class=img1>
+            <img src="images/dc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Semi conductor devices and circuits </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear nt">
+        <div class=img1>
+            <img src="images/nt.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Network Theory</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear stld">
+        <div class=img1>
+            <img src="images/stld.PNG" class="img1" width=100% height=50%>
+        </div>
+        <div class=text1>
+            <h4>Switching theory and logical designing</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear clang">
+        <div class=img1>
+            <img src="images/c lang.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>C Programming language</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear python">
+        <div class=img1>
+            <img src="images/python.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Python Programming Language</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear ds">
+        <div class=img1>
+            <img src="images/ds.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Data Structures</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear pdc">
+        <div class=img1>
+            <img src="images/pdc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Pulse Digital Circuits</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear eca">
+        <div class=img1>
+            <img src="images/eca.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Electronic Circuit Analysis</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div> 
+    <div class="filterDiv BTech ECE 1styear m1">
+        <div class=img1>
+            <img src="images/m1.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-1</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear cs">
+        <div class=img1>
+            <img src="images/cs.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Control Systems</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear dsp">
+        <div class=img1>
+            <img src="images/dsp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Digitl Signal Processing</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear mwe"> 
+        <div class=img1>
+            <img src="images/mwe.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>MicroWave Engineering</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear mpmc">
+        <div class=img1>
+            <img src="images/mpmc.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Micro Processor and Micro Controller</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear m2">
+        <div class=>
+            <img src="images/m2.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-2</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear dbms">
+        <div class=img1>
+            <img src="images/dbms.jpeg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Data base Management System</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear oops">
+        <div class=img1>
+            <img src="images/oops.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>OOPs through JAVA</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear m3">
+        <div class=img1>
+            <img src="images/m3.jpeg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-3</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear ldica">
+        <div class=img1>
+            <img src="images/ldica.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Linear & Digital Integrated Circuits</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear beee">
+        <div class=img1>
+            <img src="images/beee.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Basics of Electronics Engineering</h4>
+            <h4>1st year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear awp">
+        <div class=img1>
+            <img src="images/awp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Antenna Wave Propogation</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-pin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+
+    
+    <div class="filterDiv BTech ECE 2ndyear emwtl">
+        <div class=img1>
+            <img src="images/emwtl.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Electomagnetic & Transmission lines </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <!-- <h5 >Hand written</h5>  -->
+            <!-- <i class="far fa-edit"></i> -->
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star checked  fa-spin"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear rvsp">
+        <div class=img1>
+            <img src="images/rvsp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Random variables and surcastic process </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star checked fa-spin fa-spin"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 3rdyear vlsi" >
+        <div class=img1>
+            <img src="images/VLSI.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Very large-scale integration</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear ac">
+        <div class=img1>
+            <img src="images/ac.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Analog Communication </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 3rdyear dc">
+        <div class=img1>
+            <img src="images/dc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Digital communication</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear ss">
+        <div class=img1>
+            <img src="images/ss.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>signals and systems</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv  BTech ECE 2ndyear sdc">
+        <div class=img1>
+            <img src="images/dc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Semi conductor devices and circuits </h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear nt">
+        <div class=img1>
+            <img src="images/nt.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Network Theory</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear stld">
+        <div class=img1>
+            <img src="images/stld.PNG" class="img1" width=100% height=50%>
+        </div>
+        <div class=text1>
+            <h4>Switching theory and logical designing</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear clang">
+        <div class=img1>
+            <img src="images/c lang.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>C Programming language</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear python">
+        <div class=img1>
+            <img src="images/python.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Python Programming Language</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear ds">
+        <div class=img1>
+            <img src="images/ds.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Data Structures</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear pdc">
+        <div class=img1>
+            <img src="images/pdc.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Pulse Digital Circuits</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear eca">
+        <div class=img1>
+            <img src="images/eca.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Electronic Circuit Analysis</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div> 
+    <div class="filterDiv BTech ECE 1styear m1">
+        <div class=img1>
+            <img src="images/m1.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-1</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear cs">
+        <div class=img1>
+            <img src="images/cs.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Control Systems</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear dsp">
+        <div class=img1>
+            <img src="images/dsp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Digitl Signal Processing</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear mwe"> 
+        <div class=img1>
+            <img src="images/mwe.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>MicroWave Engineering</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear mpmc">
+        <div class=img1>
+            <img src="images/mpmc.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Micro Processor and Micro Controller</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear m2">
+        <div class=>
+            <img src="images/m2.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-2</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear dbms">
+        <div class=img1>
+            <img src="images/dbms.jpeg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Data base Management System</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear oops">
+        <div class=img1>
+            <img src="images/oops.png" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>OOPs through JAVA</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 2ndyear m3">
+        <div class=img1>
+            <img src="images/m3.jpeg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Engineering Maths-3</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear ldica">
+        <div class=img1>
+            <img src="images/ldica.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Linear & Digital Integrated Circuits</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 1styear beee">
+        <div class=img1>
+            <img src="images/beee.jpg" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Basics of Electronics Engineering</h4>
+            <h4>1st year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+    <div class="filterDiv BTech ECE 3rdyear awp">
+        <div class=img1>
+            <img src="images/awp.PNG" class="img1" width=100% height=100%>
+        </div>
+        <div class=text1>
+            <h4>Antenna Wave Propogation</h4>
+            <h4>2nd year,UNIT-1</h4>
+            <h4 class="narm"><i class="fas fa-user-edit " style="color: #339af0"></i>M.Lakshmi Pravallika</h4> 
+            <a class="actg" href=""><i class="fas fa-download  gui" style="color: #ff6b6b"></i>Downlode here</a>
+        </div>
+        <div class="star">
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-pin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+            <span class="fa fa-star checked fa-spin"></span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
+
+<!-- ______________________________________________________________________________________ -->
+
+
+
+
+
+
+
+
+
+</container>
+<script src="https://kit.fontawesome.com/dca26f7707.js" crossorigin="anonymous"></script>
+
+
+
+
+
+<script>
+
+function populate(s1,s2){
+	var s1 = document.getElementById(s1);
+	var s2 = document.getElementById(s2);
+    var s3 = document.getElementById('branc-dt');
+	s2.innerHTML = "";
+    if(s3.value =='ECE'){
+	if(s1.value == "1styear"){
+		var optionArray = ["|","m1|M-1","clang|C Language","python|Python","beee|BEEE","m2|M-II"];
+	}
+    if(s1.value == "2ndyear"){
+		var optionArray = ["|","sdc|SemiconductorDevices & Circuits","ss|Signals and Systems","nt|Network Theory","stld|Switching Theory & Logical Desining","ds|Data Structures","m3|Engineering Maths3","pdc|Pulse Digital Circuits","rvsp|Random Variables","ac|Analog Communication","eca|Electronic circuit & Analysis","emwtl|Electromagnetic Waves and Transmision lines"];
+	}
+    if(s1.value == "3rdyear"){
+		var optionArray = ["|","awp|Antenna Wave Propogation","cs|Control Systems","oops|OOps through Java","dc|Digital Communication","ldica|Linear & Digital Circuit Analysis","vlsi|VLSI","mpmc|Microprocessor & controllers","mwe|Microwave Engineering","dsp|Digital Signal Processing","dbms|DBMS"];
+	}
+    if(s1.value == "4thyear"){
+		var optionArray = ["|","m1|M-1","clang|C Language","python|Python","beee|BEEE","m2|M-II"];
+	} 
+    }
+    if(s3.value =='CSE'){
+    if(s1.value == "2ndyear"){
+		var optionArray = ["|","avenger|Avenger","challenger|Challenger","charger|Charger"];
+	}
+    }
+    if(s3.value =='EEE'){ 
+    if(s1.value == "3rdyear"){
+		var optionArray = ["|","mustang|Mustang","shelby|Shelby"];
+	}
+    }
+	for(var option in optionArray){
+		var pair = optionArray[option].split("|");
+		var newOption = document.createElement("option");
+		newOption.value = pair[0];
+		newOption.innerHTML = pair[1];
+		s2.options.add(newOption);
+	}
+}
+
+
+function val(p) {
+    k = document.getElementById(p).value;
+    filterSelection(k);
+//    var x = document.getElementById("div2");
+//     y=document.getElementById('containers');
+//     
+//     if (i.innerHTML === "") {
+    
+//   } 
+}
+function chk(){
+    var y=document.getElementById('containers');
+    if(y.style.display === "none") 
+      { 
+        y.innerHTML = 'NO Element Found';
+
+  }
+
+}
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  
+    
+  
+  
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+       w3RemoveClass(x[i], "show");
+     
+   
+ if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    
+}
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+
+</script>
+
+</body>
+</html>
+
+

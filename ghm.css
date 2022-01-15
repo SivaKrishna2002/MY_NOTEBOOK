@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* .navigator
+{
+    display: grid;
+    grid-template-columns: 1fr repeat(4,120px);
+    margin: 15px 0px;
+    align-items: center;
+    text-align: center;
+}
+.logo1
+{
+    color: tomato;
+}
+.logo
+{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 7px 10px;
+    text-align: left;
+    color: white;
+      
+}
+.asset
+{
+    margin: 2px ; 
+    text-align: center;
+    margin-right: 30px; 
+    padding: 10px;  
+} 
+.navigator a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.navigator a:hover
+{
+    border-bottom: 3px solid yellow;   
+}
+/* ______________________________________________________________________ */
+.top
+{
+    
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-rows: 75px 200px auto;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 15px;
+    grid-column-gap: 70px;
+    overflow: hidden;
+}
+
+.div1{
+    background-color: #116466;
+    grid-column: 1/-1;
+}
+.div2{
+    background-image: url('images/university.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;    /* background-color: #003366; */
+    opacity: 0.9; 
+      
+    grid-column: 1/-1;
+}
+.div3{
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 400px;
+}
+
+.filterDiv {
+    /* border: 2px solid #008000; */
+    display: grid;
+    grid-template-rows: 140px 100px ;
+    grid-template-columns: 1fr;
+    background-color: white;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    display: none;
+    border-radius: 5px;
+    height: 320px;
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: 20px;
+  
+  
+  }
+/* .filterDiv:hover
+  {
+      border: 2px solid skyblue;
+      transform: (0.2s);
+  } */
+  
+.show {
+    display: block;
+}
+  
+.container {
+    margin-top: 20px;
+    overflow: hidden;
+    /* height: 8000px; */
+    background-color: #f1f1f1;
+    /* border: 2px solid red; */
+    margin-right: 30px;
+    display: grid;    
+    grid-template-columns: repeat(auto-fit,300px);
+    grid-gap: 3px;   
+    text-align: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    /* margin: 20px; */
+}
+.img1{
+    height: 140px;
+}
+.checked {
+    color: orange;
+    padding: 2px;
+  }
+.star
+{
+ 
+  /* border: 2px solid red; */
+  width: fit-content;
+  height: fit-content;
+  margin-top: 50px ;
+  margin-left: 50px;
+   
+}
+.star .fa{
+  
+  position:relative;
+  bottom: 0px;
+
+}
+
+.text1
+{
+    margin:5px;
+    color: black;
+    /* border: 2px solid red; */
+    text-align: center;
+    /* line-height: 22px; */
+}
+
+.narm{
+  margin-top: 15px;
+  text-align: left;
+    opacity: 0.6;
+}
+.narm .fas{
+  font-size: 20px;
+  padding: 0 10px;
+  padding-right: 15px;
+}
+
+.actg{
+  margin-top: 15px;
+  
+  float: left;
+  
+}
+.text1 a .fas{
+  padding: 0 10px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.filer{
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+  opacity: 0.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+  
+  /* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+.btn:hover {
+    background-color: #ddd;
+  }
+  
+.btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+.input-data{
+ 
+    width: 100%;
+    height: 40px;
+    margin: 25px 20px;
+    position: relative;
+  }
+.input-data select{
+    background: transparent;
+  }
+select {
+    font-size: 1px;
+    opacity: 0.5;
+ }
+.input-data label{
+    position: absolute;
+    pointer-events: none;
+    bottom: 40px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+  }
+
+.input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+  }
+.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #3498db;
+    transform: scaleX(0);
+    transform-origin:bottom;
+    transition: transform 0.3s ease;
+  }
+
+
+  
+.input-data select{
+    display: block;
+    width: 80%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0,0,0, 0.12);
+  }
+
+
+  /* --------------------------------------------- */
+
+form{
+    border: 2px solid red;
+    position: relative;
+    top: 50%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+    /* float: right; */
+}
+
+form input{
+    border: 2px solid red;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+form .fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 300px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #07051a;
+    color: white;
+}
+
+.src-br{
+  color: white;
+  position: relative;
+
+  top: 30%;
+  left: 57%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.imgbox{
+  width:  250px;
+  height: 100%;
+  float: left;
+  
+}
+.imgbox img{
+  opacity:25;
+}
+
+/* .imgbox2{
+  background-image: url('university.jpg');
+  width:  1095px;
+  height: 100%;
+  float: left;
+  opacity: 0.6;
+  
+} */
+
+
+
+
+  
